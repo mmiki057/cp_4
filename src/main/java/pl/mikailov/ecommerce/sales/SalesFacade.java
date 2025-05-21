@@ -5,5 +5,9 @@ public class SalesFacade {
 
     public void acceptOffer(AcceprOfferCommand acceptOffer){}
 
+    public Offer getCurrentOffer(String customerId) {
+        return new Offer();
+    }
+
     public void makeReservationPaid(String reservationId) {}
 }
